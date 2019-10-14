@@ -1,1 +1,4 @@
-find -name "a" || -name "*z" || -name "z" || -name "*a!"
+find -name "a*"
+find -name "*z"
+find -name "z*"
+find -name "*a!"
