@@ -1,0 +1,1 @@
+curl --silent https://raw.githubusercontent.com/kigiri/superhero-api/master/api/all.json | jq '[.[].connections] | .[0].relatives'
