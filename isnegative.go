@@ -8,4 +8,4 @@ func IsNegative(nb int) {
 	} else {
 		z01.PrintRune('T')
 	}
-}
+}         
