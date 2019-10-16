@@ -3,13 +3,14 @@ package piscine
 import "github.com/01-edu/z01"
 
 func PrintComb() {
-	for startNumber := '0'; startNumber <= '999'; startNumber++ {
-		var fisrtDigit = startNumber / '100'
-		var secondDigit = (startNumber / '10') % '10'
-		var thirdDigit = startNumber % '10'
-		if fisrtDigit < secondDigit {
-			if secondDigit < thirdDigit {
-				z01.PrintRune(startNumber)
+	for a := '0'; a <= '9'; a++ {
+		for b:= a+1; b <= '9'; b++ {
+			for c:= b+1; c <= '9'; c++{
+				if a < b {
+					if b < c {
+						z01.PrintRune(a)
+					}
+				}
 			}
 		}
 	}
