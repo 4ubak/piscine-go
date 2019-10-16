@@ -9,6 +9,8 @@ func PrintComb() {
 				if a < b {
 					if b < c {
 						z01.PrintRune(a)
+						z01.PrintRune(b)
+						z01.PrintRune(c)
 					}
 				}
 			}
