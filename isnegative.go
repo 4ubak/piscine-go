@@ -1,7 +1,8 @@
 package main
 
-import "github.com/01-edu/z01"
 import piscine ".."
+
+import "github.com/01-edu/z01"
 
 func main() {
 	piscine.IsNegative(1)
