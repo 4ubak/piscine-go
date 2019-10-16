@@ -7,4 +7,9 @@ func main() {
 		z01.PrintRune(rune(smallAlph))
 	}
 	z01.PrintRune(10)
+
+	for bigAlph := 'A'; bigAlph <= 'Z'; bigAlph++ {
+		z01.PrintRune(rune(bigAlph))
+	}
+	z01.PrintRune(10)
 }
