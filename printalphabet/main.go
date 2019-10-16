@@ -6,5 +6,5 @@ func main() {
 	for smallAlph := 'a'; smallAlph <= 'z' ; smallAlph++ {
 		fmt.Printf("%c", smallAlph)
 	}
-	fmt.Println()
+	fmt.Printf('\n')
 }
