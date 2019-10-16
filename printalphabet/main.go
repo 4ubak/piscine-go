@@ -6,5 +6,5 @@ func main() {
 	for smallAlph := 'a'; smallAlph <= 'z' ; smallAlph++ {
 		z01.PrintRune(rune(smallAlph))
 	}
-	z01.PrintRune('\n')
+	z01.PrintRune(rune('\n'))
 }
