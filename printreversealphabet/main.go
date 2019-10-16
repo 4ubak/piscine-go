@@ -3,7 +3,7 @@ package main
 import "github.com/01-edu/z01"
 
 func main() {
-	for reversealAlph := 'z'; reversealAlph <= 'a'; reversealAlph++ {
+	for reversealAlph := 'z'; reversealAlph >= 'a'; reversealAlph-- {
 		z01.PrintRune(rune(reversealAlph))
 	}
 	z01.PrintRune(10)
