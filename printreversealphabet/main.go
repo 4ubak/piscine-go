@@ -3,8 +3,8 @@ package main
 import "github.com/01-edu/z01"
 
 func main() {
-	for bigAlph := 'A'; bigAlph <= 'Z'; bigAlph++ {
-		z01.PrintRune(rune(bigAlph))
+	for reversealAlph := 'z'; reversealAlph <= 'a'; reversealAlph++ {
+		z01.PrintRune(rune(reversealAlph))
 	}
 	z01.PrintRune(10)
 }
