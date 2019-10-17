@@ -6,4 +6,3 @@ func UltimateDivMod(a *int, b *int) {
 	*a = tempA
 	*b = tempB
 }
-
