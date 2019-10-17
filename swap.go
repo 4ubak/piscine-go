@@ -6,4 +6,3 @@ func Swap(a *int, b *int) {
 	*a = tempB
 	*b = tempA
 }
-
