@@ -1,4 +1,4 @@
-import piscine
+package piscine
 
 
 func PrintStr(str string) {
