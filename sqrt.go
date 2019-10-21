@@ -7,5 +7,5 @@ func Sqrt(nb int) int {
 		result = a * a
 		sqrt++
 	}
-	return sqrt-1
+	return sqrt - 1
 }
