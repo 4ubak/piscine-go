@@ -1,4 +1,3 @@
-
 package piscine
 
 func IterativeFactorial(nb int) int {
