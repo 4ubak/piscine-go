@@ -9,8 +9,8 @@ func IterativeFactorial(nb int) int {
 		return 0
 	}
 	var b = 1
-	for a := nb; a >= 1; a -- {
-		b *= a 
-	} 
+	for a := nb; a >= 1; a-- {
+		b *= a
+	}
 	return b
 }
