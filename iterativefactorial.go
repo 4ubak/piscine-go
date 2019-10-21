@@ -14,5 +14,5 @@ func IterativeFactorial(nb int) int {
 		}
 		return b
 	}
-	return 1
+	return 0
 }
