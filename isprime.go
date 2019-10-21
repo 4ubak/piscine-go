@@ -8,6 +8,6 @@ func IsPrime(nb int) bool {
 			return true
 		}
 	} else {
-		return false
+		return true
 	}
 }
