@@ -12,6 +12,7 @@ func PrintNbrInOrder(n int) {
 		minValue := 0
 		eachValue := 0
 		result := 0
+		arrayCount := 0
 		for n != 0 {
 			eachValue = n % 10
 			n /= 10
@@ -23,7 +24,10 @@ func PrintNbrInOrder(n int) {
 				array = append(array, minValue)
 			}
 		}
-		for i := 0; i < len(array); i++ {
+		for _. count := range array {
+			arrayCount++
+		}
+		for i := 0; i < arrayCount; i++ {
 			result *= 10
 			result = result + array[i]
 		}
