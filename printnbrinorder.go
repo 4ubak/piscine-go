@@ -27,7 +27,7 @@ func PrintNbrInOrder(n int) {
 		for _, count := range array {
 			arrayCount = count + 1
 		}
-		for i := 0; i < arrayCount; i++ {
+		for i := 0; i < arrayCount - 1; i++ {
 			result *= 10
 			result = result + array[i]
 		}
