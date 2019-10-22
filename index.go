@@ -1,0 +1,34 @@
+package piscine
+
+func Index(s string, toFind string) int {
+	toFindCount := arrayCount(toFind)
+	secondIndex := 0
+	for i1, i2 := range s {
+		for _, j := range toFind {
+			if i2 == j {
+				if toFindCount == 1 {
+					return i1
+				}
+				for a := 0; a < toFindCount; a++ {
+					if s[i1+a] == toFind[a] {
+						secondIndex++
+					} else {
+						return -1
+					}
+				}
+				if secondIndex == toFindCount {
+					return i1
+				}
+			}
+		}
+	}
+	return -1
+}
+
+func arrayCount(s string) int {
+	count := 0
+	for i := range s {
+		count = i + 1
+	}
+	return count
+}
