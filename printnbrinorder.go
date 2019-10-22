@@ -27,6 +27,6 @@ func PrintNbrInOrder(n int) {
 			result *= 10
 			result = result + array[i]
 		}
-		fmt.Print(result)
+		z01.PrintRune(result)
 	}
 }
