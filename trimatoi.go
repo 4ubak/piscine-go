@@ -22,9 +22,9 @@ func TrimAtoi(s string) int {
 	}
 
 	for i := 0; i < len(array); i++ {
-		result = result * 10 + array[i]
+		result = result*10 + array[i]
 	}
-	
+
 	if minusIndex < firstDigitIndex && minusIndex != 0 {
 		result = result * -1
 	}
