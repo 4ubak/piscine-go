@@ -3,7 +3,7 @@ package piscine
 func TrimAtoi(s string) int {
 	var array []int
 	result := 0
-	minusIndex := 0
+	minusIndex := -1
 	firstDigitIndex := 0
 	index := 0
 	arrayCount := 0
@@ -28,7 +28,7 @@ func TrimAtoi(s string) int {
 		result = result*10 + array[i]
 	}
 
-	if minusIndex < firstDigitIndex && minusIndex != 0 {
+	if minusIndex < firstDigitIndex && minusIndex != -1 {
 		result = result * -1
 	}
 	return result
