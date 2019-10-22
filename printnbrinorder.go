@@ -31,6 +31,6 @@ func PrintNbrInOrder(n int) {
 			result *= 10
 			result = result + array[i]
 		}
-		z01.PrintRune(result)
+		z01.PrintRune(rune(result))
 	}
 }
