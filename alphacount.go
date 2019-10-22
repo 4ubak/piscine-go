@@ -3,7 +3,6 @@ package piscine
 func AlphaCount(str string) int {
 	count := 0
 	for _, s := range str {
-		fmt.Printf("%c", s)
 		if isAlpha(s) {
 			count++
 		}
