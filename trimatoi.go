@@ -26,7 +26,7 @@ func TrimAtoi(s string) int {
 		arrayCount = count + 1
 	}
 
-	for i := 0; i < len(array); i++ {
+	for i := 0; i < arrayCount; i++ {
 		result = result*10 + array[i]
 	}
 
