@@ -24,7 +24,7 @@ func PrintNbrInOrder(n int) {
 				array = append(array, minValue)
 			}
 		}
-		for _. count := range array {
+		for _, count := range array {
 			arrayCount++
 		}
 		for i := 0; i < arrayCount; i++ {
