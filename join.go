@@ -2,7 +2,14 @@ package piscine
 
 func Join(strs []string, sep string) string {
 	result := ""
-	for _, str := range strs {
+	count := 0
+	for i := range strs {
+		count++
+	}
+	for i, str := range strs {
+		if i == count {
+			result += str
+		}
 		result += str + sep
 	}
 	return result
