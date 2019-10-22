@@ -8,6 +8,7 @@ func TrimAtoi(s string) int {
 	minusIndex := 0
 	firstDigitIndex := 0
 	index := 0
+	arrayCount := 0
 	for _, rune := range s {
 		if rune == '-' {
 			minusIndex = index
@@ -19,6 +20,10 @@ func TrimAtoi(s string) int {
 			array = append(array, int(rune-'0'))
 		}
 		index++
+	}
+
+	for count := range array {
+		arrayCount = count + 1
 	}
 
 	for i := 0; i < len(array); i++ {
