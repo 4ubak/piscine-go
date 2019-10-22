@@ -8,7 +8,7 @@ func main() {
 
 func PrintNbrInOrder(n int) {
 	if n == 0 {
-		fmt.Print(0)
+		z01.PrintRune('0')
 		return
 	}
 	if n > 0 {
