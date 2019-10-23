@@ -13,6 +13,9 @@ func main() {
 		count = s + 1
 	}
 	for j := count - 1; j >= 1; j-- {
+		for _, element := range arg[j] {
+			z01.PrintRune(element)
+		}
 		z01.PrintRune('\n')
 	}
 }
