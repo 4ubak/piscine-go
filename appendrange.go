@@ -2,7 +2,7 @@ package piscine
 
 func AppendRange(min, max int) []int {
 	var array []int
-	if max > min && min > 0 && max > 0 {
+	if max > min {
 		for i := min; i < max; i++ {
 			array = append(array, i)
 		}
